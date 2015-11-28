@@ -13,4 +13,6 @@ def calculate(*args):
 root = Tk()
 root.title("Feet To Meters")
 
+mainframe = ttk.Frame(root, padding="3 3 12 12")
+
 root.mainloop()
