@@ -21,4 +21,8 @@ mainframe.rowconfigure(0, weight=1)
 feet = StringVar()
 meters = StringVar()
 
+for child in mainframe.winfo_children(): child.grid_configure(padx=5, pady=5)
+
+feet_entry.focus()
+root.bind('Return', calculate)
 root.mainloop()
