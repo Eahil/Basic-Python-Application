@@ -4,7 +4,10 @@ from tkinter import *
 from tkinter import ttk
 
 def calculate(*args):
-    pass
+    try:
+        pass
+    except ValueError:
+        pass
 
 root = Tk()
 root.title("Feet To Meters")
