@@ -18,4 +18,7 @@ mainframe.grid(column=0, row=0, sticky=(N, W, E, S))
 mainframe.columnconfigure(0, weight=1)
 mainframe.rowconfigure(0, weight=1)
 
+feet = StringVar()
+meters = StringVar()
+
 root.mainloop()
