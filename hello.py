@@ -21,6 +21,9 @@ mainframe.rowconfigure(0, weight=1)
 feet = StringVar()
 meters = StringVar()
 
+feet_entry = ttk.Entry(mainframe, width=7, textvariable=feet)
+feet_entry.grid(column=2, row=1, sticky=(W, E))
+
 for child in mainframe.winfo_children(): child.grid_configure(padx=5, pady=5)
 
 feet_entry.focus()
